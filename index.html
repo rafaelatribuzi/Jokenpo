@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokenpo</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="flex">
+            <h1>PEDRA PAPEL TESOURA</h1>
+            <button class="duvidas bold">?</button>
+        </div>
+        <div class="texto-funciona" style="display: none;">
+            <p>COMO FUNCIONA?</p>
+            <p>Um jogo de Pedra, Papel e Tesoura é um jogo simples onde o usuário pode jogar  contra o computador. 
+
+            O objetivo do jogo é permitir que os jogadores escolham entre três opções (pedra, papel ou tesoura) e, em seguida, determinar o vencedor de acordo com as regras tradicionais.</p>
+        </div>
+        <div class="texto-regras" style="display: none;">
+            <p>REGRAS</p>
+            <p> 1 - Pedra ganha de tesoura
+                2 - Papel ganha de pedra
+                3 - Tesoura ganha de papel
+                4 - Simbolos iguais são empate</p>
+        </div>
+        <div class="imagem-jopenko" style="display: none;">
+            <p class="card-superior">Fluxo</p>
+                <img class="card-imagem" src="/imagens/jokenpo.svg" alt="jopenko">
+        </div>
+        <div class="flex card mt-4">
+            <div>
+                <p class="card-superior">Você</p>
+                <div class="card-imagem-container">
+                    <img class="card-imagem" src="/imagens/pedra.svg" alt="pedra">
+                </div>
+                
+                <p class="align-center mt-1 bold">Você Ganhou!</p>
+            </div>
+            <div>
+                <p class="card-superior">Computador</p>
+                <div class="card-imagem-container">
+                    <img class="card-imagem" src="/imagens/tesoura.svg" alt="tesoura">
+                </div>
+                
+            </div>
+        </div>
+        <div class="flex botoes-container">
+            <div>
+                <button id="btn-pedra" class="bottons"><img src="/imagens/pedra.svg" alt="Papel" class="icone"></button>
+            </div>
+            <div>
+                <button id="btn-tesoura" class="bottons"><img src="/imagens/tesoura.svg" alt="Papel" class="icone"></button>
+            </div>
+            <div>
+                <button id="btn-papel" class="bottons"><img src="/imagens/papel.svg" alt="Papel" class="icone"></button>
+            </div>
+            
+        </div>
+        <div id="mostrar-texto" class="score bold">
+            <p>Vitórias/Derrotas</p>
+            <p class="mt-1"  id="score">0/0</p>
+        </div>
+        
+        
+
+    </div>
+    
+    
+    
+    <script src="/index.js"></script>
+</body>
+</html>

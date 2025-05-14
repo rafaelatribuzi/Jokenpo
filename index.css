@@ -1,0 +1,188 @@
+*{
+    font-family: "Outfit", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color:#8D3CFF;
+    color:#fff;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;   /* Centraliza horizontalmente */
+    align-items: center;    
+
+}
+
+
+.container {
+    width: 50%;
+    max-width: 10000px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+/*FONTES*/
+
+h1{
+    font-size: 3rem;
+    font-weight: 800;
+
+}
+
+p, span {
+    font-size: 1rem;
+    color: #ffff;
+    
+}
+
+.small{
+    font-size: 0.875rem;
+   
+}
+
+.regular{
+    font-weight: 400;
+}
+
+.bold{
+    font-weight: 700;
+
+}
+
+.semi-bold{
+    font-weight: 600;
+}
+
+
+
+/*ESPAÇAMENTO ENTRE ELEMENTOS*/
+
+.mt-1{
+    margin-top: 0.5rem; /*8px*/
+}
+
+.mt-2{
+    margin-top: 1rem; /*16px*/
+}
+
+.mt-3{
+    margin-top: 1.5rem; /*24px*/
+}
+
+.mt-4{
+    margin-top: 2rem; /*32px*/
+}
+
+.mt-5{
+    margin-top: 4rem; /*64px*/
+}
+
+
+/*CLASSES*/
+
+.duvidas {
+    background-color:#2E2E2E;
+    width: 50px;   /* largura do círculo */
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid white;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    font-size: 2rem;
+    
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.align-center{
+    text-align: center;
+}
+
+
+.card {
+    display: flex;
+    
+    
+}
+
+
+.card-superior {
+    background-color: #2E2E2E;
+    border-radius: 1rem 1rem 0 0;
+    text-align: center;
+    padding: 0.875rem;
+    
+
+}
+
+.card-imagem-container{
+    background-color: #1E1E1E;
+    border-radius:0 0 1rem 1rem;
+    padding: 2rem 9rem 2rem 9rem;
+}
+
+
+.card-imagem{
+    width: 80px;  
+    height: auto;
+    object-fit: contain;
+   
+}
+
+/*BOTÃO*/
+
+.bottons{
+    border-radius: 50%;
+    background-color: #1E1E1E;
+    width: 90px;   /* largura do círculo */
+    height: 90px;
+    cursor: pointer;
+    border: none;
+    
+
+}
+
+.botoes-container{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem; /* espaçamento entre os botões */
+    margin-top: 3rem;
+   
+}
+
+.icone{
+    width: 50px;   /* ajuste o tamanho conforme necessário */
+    height: 50px;
+    background-color: none;
+}
+
+.score{
+    text-align: end;
+
+}
+
+#score{
+    font-size: 3rem;
+}
+
+/*CORES*/
+
+/*
+#1E1E1E
+#2E2E2E
+
+
+*/
+
