@@ -3,7 +3,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color:#8D3CFF;
     color:#fff;
     
 }
@@ -11,13 +10,14 @@
 body{
     display: flex;
     justify-content: center;   /* Centraliza horizontalmente */
-    align-items: center;    
+    align-items: center; 
+    background-color:#8D3CFF;   
 
 }
 
 
 .container {
-    width: 50%;
+    width: 60%;
     max-width: 10000px;
     margin: auto;
     margin-top: 100px;
@@ -118,12 +118,27 @@ p, span {
 }
 
 
+.titulo {
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.descricao {
+    font-size: 15px;
+    color: white;
+    line-height: 1.6;
+    max-width: 300px;
+}
+
+
 .card-superior {
     background-color: #2E2E2E;
     border-radius: 1rem 1rem 0 0;
     text-align: center;
-    padding: 0.875rem;
-    
+    padding: 0.875rem;  
 
 }
 
@@ -133,12 +148,34 @@ p, span {
     padding: 2rem 9rem 2rem 9rem;
 }
 
+.card-imagem-container-jo{
+    background-color: #1E1E1E;
+    border-radius:0 0 1rem 1rem;
+    padding: 0 2rem;
+}
 
 .card-imagem{
     width: 80px;  
+    height: 80px;
+    object-fit: contain;
+   
+}
+
+.card-imagem-jopenko{
+    width: 130px;  
     height: auto;
     object-fit: contain;
    
+}
+
+
+.container-duvidas{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: flex-start;
+    margin-top: 20px;
+    flex-wrap: wrap;
 }
 
 /*BOTÃO*/
